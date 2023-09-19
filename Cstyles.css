@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    height:100vh;
+}
+.calculator {
+    border: 15px solid rgb(116, 69, 3);
+    border-radius: 6px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
